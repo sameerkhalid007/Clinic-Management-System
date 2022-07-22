@@ -1,28 +1,38 @@
-Clinic Management System
+# Clinic Management System
 
-The project clinic management is a web application developed to simplify the communication process between the doctor and the receptionist. The application would be operated by two admins one is doctor and the other is receptionist. Receptionist would be responsible for assigning token numbers to the patient visiting the clinic and save it in the database along with their details. These token numbers along with respective patient details are sent to doctor. The doctor can thus view patient details and after checking up the patient, the recommended medicines for the particular patient are fed into the database by the doctor and are sent to receptionist. The receptionist can then generate bill and feed into the database. The system also maintains patient’s history so that doctor or receptionist can view them anytime. The system can thus reduce complexity in maintaining patient’s records. The project is developed on web platform and is supported by a Sql database to store user specific details.
+The Clinic Management System is a web-based application developed to simplify communication between the doctor and the receptionist.
 
-Steps to run application ->
+## How does the application operate?
 
-install xampp
-install Notepad++ or Sublime
+The application will be operated by two admins, the doctor and the receptionist and the process will look as follows:
+* Receptionist will assign token numbers to visiting patient and save it on the database along with their details. 
+* Patient information will be passed on to the doctor. 
+* The doctor can then view patient details and do the check-up accordingly. 
+* The doctor then inputs the recommended medicines in the database which are then passed onto the receptionist.
+* After receiving the medicine details, the receptionist can generate the bill and store it on the database.
 
-step 1:
-start xampp and run localhost on browser
+## Why develop such application?
 
-step 2:
-name database as clinic_db and import db
+The system maintains patient’s medical history so that the doctor or the receptionist can view it anytime. It aims to reduce complexity in maintaining patient’s records. 
 
-step 3:
-now extract sourcecode in C:\xampp\htdocs and give foldername what you want.
+## Development details
 
-step 4:
-open browser and enter url as localhost/your folder name
+It is a web-based application and is supported by a SQL database to store patient details.
 
-Admin login (or Receptionist)
-Username : sameer@gmail.com
-Password : admin
+## Steps to run application
 
-Doctor login (or Receptionist)
-Username : hegde@gmail.com
-Password : hegde123
+Firstly, install xampp and Notepad++/Sublime, then follow the steps given below:
+
+1. Start xampp and run localhost on a browser.
+2. Name the database as clinic_db and import db.
+1. Start xampp and run localhost on a browser.
+3. Extract the source code and save it in C:\xampp\htdocs (Assign a folder name as you please).
+4. Open the browser and enter URL as localhost/your folder name
+
+***Admin login (or Receptionist):***
+* Username: sameer@gmail.com
+* Password: admin
+
+***Doctor login (or Receptionist):***
+* Username: hegde@gmail.com
+* Password: hegde123
