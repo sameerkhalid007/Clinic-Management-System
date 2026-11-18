@@ -32,6 +32,7 @@
 <?php
   include('connect.php');
   extract($_POST);
+  $email = mysqli_real_escape_string($conn, $email);
 if(isset($_POST['btn_login']))
 {
   $passw = hash('sha256', $_POST['password']);
